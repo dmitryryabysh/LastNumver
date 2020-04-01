@@ -4,19 +4,71 @@
     <meta charset="utf-8">
     <title>САЙТTEN</title>
     <style>
+        .content {
+            position: absolute; /* Абсолютное позиционирование */
+            left: 0; /* Положение от левого края */
+            top: 110px;
+            color: white; /* Цвет текста */
+            padding: 5px; /* Поля вокруг текста */
+            padding-right: 60px; /* Отступ справа */
+            text-align: justify; /* Выравнивание по ширине */
+        }
+        a.button1 {
+            display: inline-block;
+            width:180px;
+            color: white;
+            font-weight: 700;
+            text-decoration: none;
+            user-select: none;
+            padding: .3em 4em;
+            outline: none;
+            border: 0px solid;
+            border-radius: 1px;
+            transition: 0.2s;
+            outline: none;
+        }
+        a.button1:hover { background: white; color: black;}
+        a.button1:active { background:  rgba(255,255,255,.2); }
+
+        a.button2 {
+            display: inline-block;
+            width:180px;
+            color: darkgrey;
+            font-weight: 700;
+            text-decoration: none;
+            user-select: none;
+            padding: .3em 4em;
+            outline: none;
+            border: 0px solid;
+            border-radius: 1px;
+            transition: 0.2s;
+            outline: none;
+        }
+        a.button2:hover { background: rgba(255,255,255,.2); color: white; }
+        a.button2:active { background: black; }
+
+        @font-face {
+            font-family: Franklin Gothic Book; /* Гарнитура шрифта */
+            src: url(fonts/FRABK.ttf); /* Путь к файлу со шрифтом */
+        }
         body {
-            font-size: 80%;
-            font-family: Verdana, Arial, Helvetica, sans-serif;
-            background: #c7b39b url(images/Phone.png); /* Цвет фона и путь к файлу */
-            color: #fff; /* Цвет текста */
+            font-family: 'Franklin Gothic Book';
+            font-size: 23px;
+            background: url(images/Phone.png); /* Цвет фона и путь к файлу */
+            color: #aabbbb; /* Цвет текста */
         }
     </style>
 </head>
 <body>
+<div class="content">
+    <a href="#" class="button1">изображения</a><br>
+    <a href="#" class="button1">кисти</a><br>
+    <a href="#" class="button2">история</a><br>
+    <a href="#" class="button2">о нас</a><br>
+    <a href="#" class="button2">контакты</a>
 
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, <br> sed diem
-    nonummy nibh euismod tincidunt ut lacreet <br> dolore magna aliguam erat volutpat.</p>
-<p>Ut wisis enim ad minim veniam, quis nostrud exerci <br> tution ullamcorper
-    suscipit lobortis nisl ut aliquip ex ea <br> commodo consequat.</p>  <!рандом текст>
+</div><br>
+
+
 </body>
 </html>
