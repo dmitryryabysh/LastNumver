@@ -33,6 +33,6 @@ var pack_img = [
     },
     {
         "author": "Dmitry Ryabysh",
-        "img": "<img src=\"css/images/5.jpg\" height=\"500\" alt=\"ого\">"
+        "img": "<img src=\"css/images/5.png\" height=\"500\" alt=\"ого\">"
     }
     ]
